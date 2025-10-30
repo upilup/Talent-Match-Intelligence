@@ -198,7 +198,7 @@ if submit:
 
 
     # -----------------------------------------------
-    # 3B. DATABASE & SQL LOGIC (UNCHANGED)
+    # 3B. DATABASE & SQL LOGIC
     # -----------------------------------------------
     
     # Insert or update new job vacancy config
@@ -220,11 +220,11 @@ if submit:
         st.stop()
 
 
-    # Load and run Step 2 SQL
+    # Load and run Scripts SQL
     try:
         # NOTE: Using a placeholder path as the real path is unknown/local to the user.
         # This will likely fail for the user unless they adjust the path.
-        sql_file_path = "D:\Rakamin\queries\scripts.sql" 
+        sql_file_path = "D:\Data Analyst Case Study\Talent-Match-Intelligence\queries\scripts.sql" 
         with open(sql_file_path, encoding="utf-8") as f:
             sql = text(f.read())
         
@@ -240,7 +240,7 @@ if submit:
 
 
     if df.empty:
-        st.warning("No data returned — check benchmark IDs or source tables.")
+        st.warning("No data returned - check benchmark IDs or source tables.")
         # If df is empty, we stop here before trying to process it.
     
     

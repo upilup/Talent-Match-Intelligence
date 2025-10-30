@@ -117,7 +117,7 @@ Below is a sample of the key columns from the final aggregated output, ranked by
 ### Example Screenshots of Your Dynamic Dashboard
 
 **The Input Form (Job Details and Competency lists)**
-![Dashboard Overview](images\image-4.png)
+![Dashboard Overview](D:\Data Analyst Case Study\Talent-Match-Intelligence\images\image-4.png)
 ![Input Form](images\image-3.png)
 
 **The Main Dashboard Output (Ranked List and Bar/Hist charts)**

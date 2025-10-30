@@ -117,13 +117,13 @@ Below is a sample of the key columns from the final aggregated output, ranked by
 ### Example Screenshots of Your Dynamic Dashboard
 
 **The Input Form (Job Details and Competency lists)**
-![alt text](image-4.png)
-![alt text](image-3.png)
+![Dashboard Overview](images\image-4.png)
+![Input Form](images\image-3.png)
 
 **The Main Dashboard Output (Ranked List and Bar/Hist charts)**
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![Ranked List](images\image.png)
+![Dashboard Visualization](images\image-1.png)
+![Benchmark Visualization](images\image-2.png)
 
 ---
 

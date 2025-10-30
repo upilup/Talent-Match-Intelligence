@@ -71,7 +71,7 @@ The SQL logic is structured using Multiple Common Table Expressions (CTEs) to en
 
 ### Query Structure and CTE Logic Overview
 
-The main query (`step2_logic.sql`) uses the following primary CTEs:
+The main query (`scripts.sql`) uses the following primary CTEs:
 
 - **BenchmarkAverages:** Calculates the mean score for each TGV among the benchmark employees.
 - **CandidateScores:** Joins all raw data tables (`employees`, `papi_scores`, etc.) and calculates the raw TGV score for each candidate.
